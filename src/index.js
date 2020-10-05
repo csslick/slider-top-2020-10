@@ -25,7 +25,6 @@ function Slider (el, duration, start) {
   this.duration = duration;
   this.play = function() {
     var _this = this;
-    this.top = 0;
 
     setInterval(function(){
       if(_this.top <= -500) {
