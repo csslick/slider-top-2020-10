@@ -1,0 +1,33 @@
+* {
+  margin: 0; padding: 0;
+}
+body {
+  text-align: center;
+  background: #abc;
+}
+
+section {
+  width: 1000px;
+  height: 500px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.home_main > article:first-child{
+  width: 500px;
+  float: left;
+  transition: 0.5s;
+}
+
+.home_main > article:last-child{
+  width: 500px;
+  float: right;
+  transition: 0.5s;
+}
+
+.home_main > article > img {
+  display: block;
+  width: 500px;
+  height: 500px;
+  object-fit: cover;
+}
